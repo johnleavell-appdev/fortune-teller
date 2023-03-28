@@ -30,6 +30,12 @@ Rails.application.routes.draw do
   get("/zodiacs/cancer", { :controller => "water", :action => "crab" })
   get("/zodiacs/scorpio", { :controller => "water", :action => "scorpion" })
   get("/zodiacs/pisces", { :controller => "water", :action => "fish" })
+  get("/roll/1/6", { :controller => "roll", :action => "roll_1" })
+  get("/roll/2/6", { :controller => "roll", :action => "roll_2" })
+  get("/roll/3/6", { :controller => "roll", :action => "roll_3" })
+  get("/roll/4/6", { :controller => "roll", :action => "roll_4" })
+  get("/roll/5/6", { :controller => "roll", :action => "roll_5" })
+  get("/roll/6/6", { :controller => "roll", :action => "roll_6" })
 
   # PART 3: MORE R→C→A→V PRACTICE
   # ==========================
